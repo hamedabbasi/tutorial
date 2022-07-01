@@ -1,0 +1,21 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: 'tutorial'
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      # Hibernate ddl auto (create, create-drop, validate, update)
+      ddl-auto: update
+    properties:
+      hibernate:
+        # The SQL dialect makes Hibernate generate better SQL for the chosen database
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  datasource:
+    #jdbc:postgresql://127.0.0.1:5432/archetype
+    url: jdbc:mysql://127.0.0.1:3306/tutorial
+    username: hamed
+    password: 123456
