@@ -1,4 +1,4 @@
-package com.tutorial.samples;
+package com.tutorial.samples.failfast;
 
 import java.util.ArrayList;
 import java.util.List;
